@@ -1,0 +1,12 @@
+{
+  "apps": {
+    "vs code": "C:/Users/yourname/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+    "notepad": "C:/Windows/system32/notepad.exe",
+    "chrome": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+  },
+  "sites": {
+    "youtube": "https://www.youtube.com",
+    "google": "https://www.google.com",
+    "gpt": "https://chat.openai.com"
+  }
+}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.build/
+dist/
+*.egg-info/
+
+# Virtual envs (even though we use global installs)
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & runtime artifacts
+Logs/
+*.log
+
+# Local config (users generate their own)
+Config/settings.json
+Config/intents.json
+whitelist.txt
+
+# Caches
+.cache/
+hf_cache/
+C:/Users/*/.cache/huggingface/
