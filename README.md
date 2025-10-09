@@ -1,4 +1,3 @@
-````markdown
 <h1 align="center">🧠 Jarvis-Local</h1>
 
 <p align="center">
@@ -28,7 +27,6 @@
 
 ## 🗂️ Project Structure
 
-```bash
 D:\Jarvis
 │  jarvis_main.py
 │  whitelist.txt
@@ -46,8 +44,6 @@ D:\Jarvis
 │
 └─ Logs
     └─ jarvis_log.txt    # (WIP) persistent logger
-```
-````
 
 ---
 
@@ -113,7 +109,6 @@ Put **one entry per line**. Supports **apps**, **folders/files**, and **domains*
 
 **Examples**
 
-```
 # Apps (full paths or common names your code maps to)
 C:\Users\YourName\AppData\Local\Programs\Microsoft VS Code\Code.exe
 chrome.exe
@@ -126,7 +121,6 @@ https://github.com
 # Files/folders you explicitly allow
 D:\Jarvis\Screenshots
 D:\Docs\Notes.txt
-```
 
 > 🔒 Jarvis will **only** execute items that pass `safe_step()` checks against this whitelist.
 
@@ -288,7 +282,3 @@ Jarvis-Local is built for **speed, privacy, and local control**, making it the p
 Built with love in India 🇮🇳 by **[TUF_SCAR](https://github.com/TUF-SCAR)**
 
 ---
-
-```
-
-```
