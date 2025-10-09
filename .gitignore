@@ -1,34 +1,70 @@
-# Python
+# ── Python ─────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.so
-.build/
-dist/
-*.egg-info/
-
-# Virtual envs (even though we use global installs)
+*$py.class
 .venv/
 venv/
 env/
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
 
-# Editors / OS
-.vscode/
-.idea/
-.DS_Store
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ── OS / Editors ──────────────────────────────────────────────────────
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-# Logs & runtime artifacts
-Logs/
-*.log
+# VS Code
+.vscode/
+.history/
+*.code-workspace
 
-# Local config (users generate their own)
+# JetBrains
+.idea/
+
+# ── Project Artifacts ─────────────────────────────────────────────────
+# Local runtime config (users keep their own)
 Config/settings.json
 Config/intents.json
+
+# Logs & cache
+Logs/
+*.log
 whitelist.txt
 
-# Caches
-.cache/
-hf_cache/
-C:/Users/*/.cache/huggingface/
+# Screenshots captured by Jarvis
+Screenshots/
+
+# Audio captures (if you add debug dumps)
+AudioDebug/
+*.wav
+*.mp3
+*.flac
+
+# Generated & temporary
+*.tmp
+*.temp
+*.bak
+*.old
+.DS_Store
+
+# Misc
+*.zip
+*.7z
+*.tar
+*.tar.gz

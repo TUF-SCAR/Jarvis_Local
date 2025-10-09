@@ -1,12 +1,187 @@
 {
   "apps": {
-    "vs code": "C:/Users/yourname/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+    "vs code": {
+      "path": "C:/Users/yourname/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+      "enabled": true,
+      "aliases": ["vsc", "code", "code editor", "visual studio code", "vs code"]
+    },
+    "chrome": {
+      "path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "enabled": true,
+      "aliases": ["google chrome", "browser", "the browser", "chrome"]
+    },
+    "edge": {
+      "path": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+      "enabled": false,
+      "aliases": ["microsoft edge", "edge"]
+    },
     "notepad": "C:/Windows/system32/notepad.exe",
-    "chrome": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+    "obs": {
+      "path": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
+      "enabled": false,
+      "aliases": ["obs", "obs studio"]
+    },
+    "spotify": {
+      "path": "C:/Users/yourname/AppData/Roaming/Spotify/Spotify.exe",
+      "enabled": true,
+      "aliases": ["spotify"]
+    },
+    "discord": {
+      "path": "C:/Users/yourname/AppData/Local/Discord/Update.exe --processStart Discord.exe",
+      "enabled": true,
+      "aliases": ["discord"]
+    },
+    "telegram": {
+      "path": "C:/Users/yourname/AppData/Roaming/Telegram Desktop/Telegram.exe",
+      "enabled": false,
+      "aliases": ["telegram", "tg"]
+    },
+    "steam": {
+      "path": "C:/Program Files (x86)/Steam/steam.exe",
+      "enabled": false,
+      "aliases": ["steam"]
+    },
+    "epic games": {
+      "path": "C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesLauncher.exe",
+      "enabled": false,
+      "aliases": ["epic", "epic games"]
+    },
+    "whatsapp": {
+      "path": "C:/Program Files/WindowsApps/5319275A.WhatsAppDesktop_*/WhatsApp.exe",
+      "enabled": false,
+      "aliases": ["whatsapp", "whats app"]
+    },
+    "notion": {
+      "path": "C:/Users/yourname/AppData/Local/Programs/Notion/Notion.exe",
+      "enabled": false,
+      "aliases": ["notion"]
+    },
+    "figma": {
+      "path": "C:/Users/yourname/AppData/Local/Figma/Figma.exe",
+      "enabled": false,
+      "aliases": ["figma"]
+    },
+    "photoshop": {
+      "path": "C:/Program Files/Adobe/Adobe Photoshop 2024/Photoshop.exe",
+      "enabled": false,
+      "aliases": ["photoshop", "adobe photoshop"]
+    },
+    "premiere": {
+      "path": "C:/Program Files/Adobe/Adobe Premiere Pro 2024/Adobe Premiere Pro.exe",
+      "enabled": false,
+      "aliases": ["premiere", "premiere pro", "adobe premiere"]
+    },
+    "after effects": {
+      "path": "C:/Program Files/Adobe/Adobe After Effects 2024/Support Files/AfterFX.exe",
+      "enabled": false,
+      "aliases": ["after effects", "adobe after effects"]
+    },
+    "word": {
+      "path": "C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE",
+      "enabled": false,
+      "aliases": ["word", "microsoft word"]
+    },
+    "excel": {
+      "path": "C:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE",
+      "enabled": false,
+      "aliases": ["excel", "microsoft excel"]
+    },
+    "powerpoint": {
+      "path": "C:/Program Files/Microsoft Office/root/Office16/POWERPNT.EXE",
+      "enabled": false,
+      "aliases": ["powerpoint", "microsoft powerpoint"]
+    }
   },
   "sites": {
-    "youtube": "https://www.youtube.com",
-    "google": "https://www.google.com",
-    "gpt": "https://chat.openai.com"
+    "youtube": {
+      "url": "https://www.youtube.com",
+      "enabled": true,
+      "aliases": ["youtube", "yt", "you tube", "u tube", "you dude", "you doob"]
+    },
+    "google": {
+      "url": "https://www.google.com",
+      "enabled": true,
+      "aliases": ["google", "search", "chrome search"]
+    },
+    "gmail": {
+      "url": "https://mail.google.com",
+      "enabled": true,
+      "aliases": ["gmail", "g mail"]
+    },
+    "drive": {
+      "url": "https://drive.google.com",
+      "enabled": true,
+      "aliases": ["google drive", "drive"]
+    },
+    "docs": {
+      "url": "https://docs.google.com",
+      "enabled": true,
+      "aliases": ["google docs", "docs"]
+    },
+    "sheets": {
+      "url": "https://sheets.google.com",
+      "enabled": true,
+      "aliases": ["google sheets", "sheets"]
+    },
+    "slides": {
+      "url": "https://slides.google.com",
+      "enabled": false,
+      "aliases": ["google slides", "slides"]
+    },
+    "gpt": {
+      "url": "https://chat.openai.com",
+      "enabled": true,
+      "aliases": ["chat gpt", "chatgpt", "openai chat", "g p t"]
+    },
+    "github": {
+      "url": "https://github.com",
+      "enabled": true,
+      "aliases": ["git hub", "github"]
+    },
+    "reddit": {
+      "url": "https://www.reddit.com",
+      "enabled": true,
+      "aliases": ["reddit"]
+    },
+    "twitter": {
+      "url": "https://twitter.com",
+      "enabled": true,
+      "aliases": ["twitter", "x"]
+    },
+    "instagram": {
+      "url": "https://www.instagram.com",
+      "enabled": true,
+      "aliases": ["instagram", "insta"]
+    },
+    "facebook": {
+      "url": "https://www.facebook.com",
+      "enabled": false,
+      "aliases": ["facebook", "fb"]
+    },
+    "whatsapp web": {
+      "url": "https://web.whatsapp.com",
+      "enabled": false,
+      "aliases": ["whatsapp web", "whatsapp"]
+    },
+    "spotify web": {
+      "url": "https://open.spotify.com",
+      "enabled": true,
+      "aliases": ["spotify web", "spotify site"]
+    },
+    "netflix": {
+      "url": "https://www.netflix.com",
+      "enabled": false,
+      "aliases": ["netflix"]
+    },
+    "prime video": {
+      "url": "https://www.primevideo.com",
+      "enabled": false,
+      "aliases": ["amazon prime", "prime video"]
+    },
+    "steam store": {
+      "url": "https://store.steampowered.com",
+      "enabled": false,
+      "aliases": ["steam store", "steam site"]
+    }
   }
 }
