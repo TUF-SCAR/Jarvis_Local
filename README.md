@@ -27,23 +27,23 @@
 
 ## 🗂️ Project Structure
 
-D:\Jarvis
-│  jarvis_main.py
-│  whitelist.txt
+D:\Jarvis   
+│  jarvis_main.py  
+│  whitelist.txt  
 │
-├─ Actions
-│   ├─ __init__.py
-│   ├─ desktop.py        # open apps/sites/files
-│   └─ input.py          # typing & automation
-│
-├─ Core
-│   └─ tts.py            # Windows SAPI voice engine (win32com)
-│
-├─ Config
-│   └─ settings.json     # optional settings (e.g., voice rate, screenshot name)
-│
-└─ Logs
-    └─ jarvis_log.txt    # (WIP) persistent logger
+├─ Actions  
+│   ├─ __init__.py  
+│   ├─ desktop.py        # open apps/sites/files  
+│   └─ input.py          # typing & automation  
+│  
+├─ Core  
+│   └─ tts.py            # Windows SAPI voice engine (win32com)  
+│  
+├─ Config  
+│   └─ settings.json     # optional settings (e.g., voice rate, screenshot name)  
+│  
+└─ Logs  
+    └─ jarvis_log.txt    # (WIP) persistent logger  
 
 ---
 
