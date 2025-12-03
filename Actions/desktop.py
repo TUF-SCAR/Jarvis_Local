@@ -1,42 +1,19 @@
 import os
 import webbrowser
-from datetime import datetime
-from pathlib import Path
-import pyautogui  # used for screenshot only
-
-# --- Direct open VS Code (no CMD, no subprocess) ---
+import pyautogui
 
 
-def open_vscode():
-    candidates = [
-        os.path.join(os.environ.get("LOCALAPPDATA", ""),
-                     r"Programs\Microsoft VS Code\Code.exe"),
-        r"C:\Program Files\Microsoft VS Code\Code.exe",
-        r"C:\Program Files (x86)\Microsoft VS Code\Code.exe",
-    ]
-
-    for exe in candidates:
-        if exe and os.path.exists(exe):
-            os.startfile(exe)  # direct open, no console
-            return "VS Code launched"
-
-    # fallback: try CLI if nothing else found
-    os.startfile("code")
-
-# --- Direct open YouTube ---
+def open_app(path_or_name: str):
+    os.startfile(path_or_name)
 
 
-def open_youtube():
-    webbrowser.open("https://www.youtube.com")
-    return "YouTube opened"
-
-# --- Screenshot using PyAutoGUI ---
+def open_site(url: str):
+    webbrowser.open(url)
 
 
-def take_screenshot(filename=None):
-    if not filename:
-        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"jarvis_screenshot_{ts}.png"
-    path = Path.cwd() / filename
-    pyautogui.screenshot(str(path))
-    return filename
+def take_screenshot(save_dir: str, filename: str) -> str:
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir, exist_ok=True)
+    out_path = os.path.join(save_dir, filename)
+    pyautogui.screenshot(out_path)
+    return out_path
