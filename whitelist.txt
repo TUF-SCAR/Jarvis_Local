@@ -1,0 +1,25 @@
+# ==========================================
+# Jarvis Local — Target Whitelist (v2)
+# ==========================================
+# This whitelist controls WHAT can open.
+# - Sites: must start with one of these URL prefixes
+# - Apps: must match exact target OR end with these .exe names
+
+# -----------------------
+# Allowed Sites (prefix)
+# -----------------------
+https://youtube.com
+https://www.youtube.com
+https://github.com
+https://chat.openai.com
+https://google.com
+https://www.google.com
+
+# -----------------------
+# Allowed Apps (.exe)
+# -----------------------
+code.exe
+obs64.exe
+spotify.exe
+notepad.exe
+chrome.exe

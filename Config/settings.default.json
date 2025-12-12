@@ -1,30 +1,19 @@
 {
+  "voice_rate": 0,
+  "voice_volume": 100,
+  "announce_only_filename": true,
+
+  "screenshots_dir": "./Screenshots",
+  "screenshot_dir": "./Screenshots",
+  "screenshot_name": "jarvis_screenshot.png",
+
+  "log_path": "./logs/jarvis_log.txt",
+
   "delays": {
     "after_vscode": 1.5,
     "after_youtube": 2.5,
     "after_typing": 0.8
   },
-  "screenshot_name": "jarvis_screenshot.png",
-  "mode": "voice",
-  "intents_file": "Config/intents.json",
-  "routine_file": null,
-  "voice": {
-    "backend": "whisper",
-    "whisper_model": "small",
-    "whisper_model_path": "",
-    "device": "cpu",
-    "compute_type": "auto",
-    "sample_rate": 16000,
-    "silence_seconds": 0.6,
-    "phrase_timeout": 3.0,
-    "frame_ms": 20,
-    "energy_threshold_db": -45.0,
-    "min_phrase_ms": 280,
-    "cpu_threads": 4,
-    "num_workers": 1,
-    "input_device": null,
-    "show_devices": true,
-    "debug_audio": true,
-    "warmup_seconds": 1.0
-  }
+
+  "mode": "voice"
 }

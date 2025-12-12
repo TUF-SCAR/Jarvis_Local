@@ -45,7 +45,6 @@ Config/intents.json
 # Logs & cache
 Logs/
 *.log
-whitelist.txt
 
 # Screenshots captured by Jarvis
 Screenshots/
