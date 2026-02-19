@@ -13,6 +13,11 @@ dist/
 build/
 pip-wheel-metadata/
 
+# Google Drive
+.tmp.driveupload/
+*.tmp
+*.log
+
 # Byte-compiled / optimized / DLL files
 *.so
 *.dylib
